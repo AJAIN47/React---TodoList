@@ -5,8 +5,13 @@ const port = 3000;
 
 let todos = [{
   id: '123',
-  text: 'Add a server',
+  text: 'Fake - Add a server',
   isCompleted: true,
+},
+{
+  id: '456',
+  text: 'Mock Complete List',
+  isCompleted: false,
 }];
 
 app.use(express.json());
